@@ -412,7 +412,7 @@
   function restart(){ goTo('intro'); resetLetter(); currentSlide = 0; renderSlide(); }
 
   /* ---------- letter reveal ---------- */
-  const letterText = "My darling, I missed you so much, my love. I love you, my life, I'm crazy about you, and I adore you. You are the best and most beautiful thing that ever happened to me. May God keep you for me, my dearest and most precious thing. You are the best person in the world and the most important person to me, and I want to teach you everything. I want to be with you so much, and I don't want anyone else in the world. When I'm with you, I'm so happy. God willing, we'll stay together forever, my love. I love you so much.";
+  const letterText = "هنونتييييي, وحشتيني أوي يا حبيبتي, بحبك يا حياتي وبموت فيكي أوي وبعشقكككك.. أنتِ أحلى وأجمل حاجة حصلتلي في الدنيا بجد، ربنا يخليكي ليا يا أغلى وأجمل حاجة عندي. وعمتاً أنتِ أحسن حد في الدنيا وأنتِ أهم حد بالنسبة لي، وعاوز أعلمك أي حاجة في الدنيا بجد، وعاوز أكون معاكي جداً ومش عاوز أي حد غيرك في الدنيا.. أنا أما بكون معاكي بكون مبسوط أويييي. إن شاء الله هنفضل مع بعض طول العمررر يا روحي. بحبك أويييييي!";
   const sentences = letterText.match(/[^.]+\.\s*/g).map(s => s.trim());
   const letterEl = document.getElementById('letterText');
   let letterBuilt = false;
